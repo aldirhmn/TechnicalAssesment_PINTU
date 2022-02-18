@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Question 4_Register Negative,,,,2022-02-18 17:14:34,2022-02-18 17:15:10,35.486s,PASSED
+,,,,,,,
+Test Cases/Question 4 Register_Negative,,,,2022-02-18 17:14:35,2022-02-18 17:15:10,35.235s,PASSED
+"startExistingApplication(""com.loginmodule.learning"")",,,,2022-02-18 17:14:35,2022-02-18 17:14:47,11.885s,PASSED
+"tap(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.TextView - No account yet Create one""), 0)",,,,2022-02-18 17:14:47,2022-02-18 17:14:49,2.110s,PASSED
+"setText(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.EditText""), ""aldi"", 0)",,,,2022-02-18 17:14:49,2022-02-18 17:14:50,0.827s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-18 17:14:50,2022-02-18 17:14:53,3.031s,PASSED
+"setText(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.EditText (1)""), ""aldi1@aldi.com"", 0)",,,,2022-02-18 17:14:53,2022-02-18 17:14:54,0.851s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-18 17:14:54,2022-02-18 17:14:57,3.010s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.EditText (2)""), ""RigbBhfdqODKcAsiUrg+1Q=="", 0)",,,,2022-02-18 17:14:57,2022-02-18 17:14:58,0.851s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-18 17:14:58,2022-02-18 17:15:01,3.013s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.EditText (3)""), ""RigbBhfdqODKcAsiUrg+1Q=="", 0)",,,,2022-02-18 17:15:01,2022-02-18 17:15:02,1.528s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-18 17:15:02,2022-02-18 17:15:05,3.013s,PASSED
+"tap(findTestObject(""Object Repository/Pintu/Question 4 Register_Positive/android.widget.Button - REGISTER""), 0)",,,,2022-02-18 17:15:05,2022-02-18 17:15:06,0.520s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-02-18 17:15:06,2022-02-18 17:15:09,3.010s,PASSED
+takeScreenshot(),,,,2022-02-18 17:15:09,2022-02-18 17:15:09,0.662s,PASSED
+closeApplication(),,,,2022-02-18 17:15:09,2022-02-18 17:15:10,0.564s,PASSED
