@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Pintu 1,,,,2022-02-18 17:17:18,2022-02-18 17:17:30,12.123s,PASSED
+,,,,,,,
+Test Cases/Tests Pintu 1,,,,2022-02-18 17:17:18,2022-02-18 17:17:30,11.877s,PASSED
+"response = sendRequest(findTestObject(""Pintu/Tests Pintu 1""))",,,,2022-02-18 17:17:18,2022-02-18 17:17:20,1.445s,PASSED
+result = response.getResponseBodyContent(),,,,2022-02-18 17:17:20,2022-02-18 17:17:20,0.011s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-02-18 17:17:20,2022-02-18 17:17:20,0.013s,PASSED
+out.println(result),,,,2022-02-18 17:17:20,2022-02-18 17:17:20,0.026s,PASSED
+delay(10),,,,2022-02-18 17:17:20,2022-02-18 17:17:30,10.029s,PASSED

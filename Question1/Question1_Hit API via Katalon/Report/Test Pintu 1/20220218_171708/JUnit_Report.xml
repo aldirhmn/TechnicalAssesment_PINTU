@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Pintu 1" time="12.606" tests="1" failures="0" errors="0">
+   <testsuite name="Test Pintu 1" tests="1" failures="0" errors="0" time="12.606" skipped="0" timestamp="2022-02-18 17:17:18" hostname="aldir - LAPTOP-RKKJ1FFP" id="Test Suites/Test Pintu 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aldir\\Katalon Studio\\My First Mobile Project\\Reports\\20220218_171708\\Test Pintu 1\\20220218_171708"/>
+         <property name="logFiles" value="C:\\Users\\aldir\\Katalon Studio\\My First Mobile Project\\Reports\\20220218_171708\\Test Pintu 1\\20220218_171708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aldir - LAPTOP-RKKJ1FFP"/>
+         <property name="hostAddress" value="192.168.100.26"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Tests Pintu 1" time="11.877" classname="Test Cases/Tests Pintu 1" status="PASSED">
+         <system-out><![CDATA[2022-02-18 17:17:18 - [TEST_CASE][PASSED] - Test Cases/Tests Pintu 1: Test Cases/Tests Pintu 1
+
+2022-02-18 17:17:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Pintu/Tests Pintu 1")): Send request successfully
+
+2022-02-18 17:17:20 - [MESSAGE][INFO] - HAR: C:\Users\aldir\Katalon Studio\My First Mobile Project\Reports\20220218_171708\Test Pintu 1\20220218_171708\requests\main\0.har
+
+2022-02-18 17:17:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-02-18 17:17:20 - [TEST_STEP][PASSED] - result = response.getResponseBodyContent(): null
+
+2022-02-18 17:17:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-02-18 17:17:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-02-18 17:17:20 - [TEST_STEP][PASSED] - out.println(result): null
+
+2022-02-18 17:17:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-18 17:17:30 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-18 17:17:18 - [TEST_SUITE][PASSED] - Test Pintu 1: Test Cases/Tests Pintu 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
